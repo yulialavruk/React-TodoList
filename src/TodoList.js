@@ -29,7 +29,7 @@ class TodoList extends React.Component{
 
   deleteItem = key => {
     const filteredItems = this.state.items.filter(function(item){
-      return item.key !==key
+      return item.key !== key
     })
     this.setState({
       items: filteredItems
@@ -42,7 +42,7 @@ class TodoList extends React.Component{
         <div className="header">
           <form onSubmit={this.addItem}>
             <input ref={ a => this._inputElement = a}
-              placeholder="Enter task"></input>
+                    placeholder="Enter task"></input>
             <button type="submit">Add</button>
           </form>
         </div>
