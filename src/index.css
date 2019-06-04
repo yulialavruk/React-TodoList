@@ -1,7 +1,8 @@
 body {
-  background-color: #5A88D6;
+  background-color: #66ccff;
+  padding-top: 100px;
 }
-.container{
+#container{
 	display: flex;
-	justify-content: flex;
+	justify-content: center;
 }
